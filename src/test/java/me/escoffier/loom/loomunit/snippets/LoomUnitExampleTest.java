@@ -1,5 +1,6 @@
 package me.escoffier.loom.loomunit.snippets;
 // @start region="example"
+import java.time.temporal.ChronoUnit;
 import me.escoffier.loom.loomunit.LoomUnitExtension;
 import me.escoffier.loom.loomunit.ThreadPinnedEvents;
 import me.escoffier.loom.loomunit.ShouldNotPin;
@@ -17,7 +18,7 @@ public class LoomUnitExampleTest {
     CodeUnderTest codeUnderTest = new CodeUnderTest();
 
     @Test
-    @ShouldNotPin
+    @ShouldNotPin(threshHold = 10, unit = ChronoUnit.MILLIS)
     public void testThatShouldNotPin() {
         // ...
     }

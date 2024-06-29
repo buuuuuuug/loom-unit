@@ -87,6 +87,8 @@
                 <version>3.10.1</version>
                 <configuration>
                     <compilerArgs>--enable-preview</compilerArgs>
+                  <source>21</source>
+                  <target>21</target>
                 </configuration>
             </plugin>
             <plugin>
