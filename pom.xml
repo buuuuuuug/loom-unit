@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.escoffier.loom</groupId>
+    <groupId>io.github.buuuuuuug</groupId>
     <artifactId>loom-unit</artifactId>
     <version>0.3.1-SNAPSHOT</version>
 
@@ -17,8 +17,8 @@
     </licenses>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -161,27 +161,27 @@
         </profile>
     </profiles>
     <scm>
-        <url>https://github.com/cescoffier/loom-unit</url>
-        <connection>https://github.com/cescoffier/loom-unit.git</connection>
-        <developerConnection>scm:git:https://github.com/cescoffier/loom-unit.git</developerConnection>
+        <url>https://github.com/buuuuuuug/loom-unit</url>
+        <connection>https://github.com/buuuuuuug/loom-unit.git</connection>
+        <developerConnection>scm:git:https://github.com/buuuuuuug/loom-unit.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
     <inceptionYear>2022</inceptionYear>
     <issueManagement>
         <system>github</system>
-        <url>https://github.com/cescoffier/vertx-completable-future/issues</url>
+        <url>https://github.com/buuuuuuug/loom-unit/issues</url>
     </issueManagement>
     <organization>
-        <name>escoffier.me</name>
-        <url>http://escoffier.me</url>
+        <name>chaney</name>
+        <url>https://buuuuuuug.github.io/</url>
     </organization>
     <developers>
         <developer>
-            <id>cescoffier</id>
-            <name>Clement Escoffier</name>
-            <email>clement[AT]apache[DOT]org</email>
-            <url>https://github.com/cescoffier</url>
+            <id>chaney</id>
+            <name>chaney chan</name>
+            <email>channarry@163.com</email>
+            <url>https://github.com/buuuuuuug</url>
         </developer>
     </developers>
 
