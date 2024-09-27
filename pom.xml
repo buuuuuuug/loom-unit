@@ -4,7 +4,7 @@
 
     <groupId>io.github.buuuuuuug</groupId>
     <artifactId>loom-unit</artifactId>
-    <version>0.3.2</version>
+    <version>0.3.3</version>
 
     <name>Loom-Unit</name>
     <description>A Junit 5 Extension to check if your code pins the carrier thread</description>
