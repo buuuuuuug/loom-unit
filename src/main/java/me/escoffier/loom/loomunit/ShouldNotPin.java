@@ -14,7 +14,7 @@ import java.time.temporal.ChronoUnit;
 @Target({ElementType.METHOD, ElementType.TYPE})
 public @interface ShouldNotPin {
 
-    int threshHold() default 10;
+    int threshHold() default 0;
 
     ChronoUnit unit() default ChronoUnit.MILLIS;
 }
